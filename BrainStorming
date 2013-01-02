@@ -13,7 +13,7 @@ List your ideas here
     NPS4mini~16mm, NPS3mini~8mm NPS2mini~4mm, NPS1mini~2mm, NPS0mini=NPS10micro=1mm, NPS9micro=0.5mm~512µm
 
 Main parts of a conventional computer (for reference):
-  CPU
+	CPU
     Cores
       Executive section
       A few ALUs
@@ -29,7 +29,8 @@ Main parts of a conventional computer (for reference):
     Actual Storage
   Motherboard
     I/O
-    Chipsets
+    Northbridge
+    Southbridge
     Integrated Power Supply
   Seperate Power Supply
 
@@ -39,3 +40,11 @@ Fungible vs. Classic Modular
 
 Daul system: main module system is fungible, secondary/per-module system is classicly modular
   (hmm, I'll follow this method for awhile)
+
+FPGA Chipbridge for Dev
+Modular Chipbridge for Normal
+Static Chipbridge for Embedded/Small/Cheapo
+
+Jargon:
+Chipbridge - any chip that provides the interfaces for two or more components within a module (think Northbridge/Southbridge)
+Module Interface - The chip(s) and physical port that provide the interface for two or more modules
