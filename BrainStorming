@@ -1,17 +1,5 @@
 List your ideas here
 
-3 Variable Interface:
-  Scalable Parallel Size:
-    Twice the wires=One full PARALLEL SIZE (PS) bigger:
-    PS0=1 Wire, PS1=2w, PS1.5=3w, PS2=4w, PS2.25=5w, etc.
-  Scalable Serial Size:
-    Twice the speed (in Hz)=One full SERIAL SIZE (SS) Bigger:
-    SS0=Fundamental Frequency (TBD), SS1=2x, SS1.5=3x, SS2=4w, SS2.25=5w, etc.
-  Scalable Number-Prefix Size:
-    Half the wire Interval (with a base2-base10 adjustment)=Half the NUMBER-PREFIX SIZE (NPS);
-    1/1000 the wire interval=1/10 the NPS=One full NPS smaller:
-    NPS4mini~16mm, NPS3mini~8mm NPS2mini~4mm, NPS1mini~2mm, NPS0mini=NPS10micro=1mm, NPS9micro=0.5mm~512µm
-
 Main parts of a conventional computer (for reference):
 	CPU
     Cores
@@ -33,18 +21,3 @@ Main parts of a conventional computer (for reference):
     Southbridge
     Integrated Power Supply
   Seperate Power Supply
-
-Fungible vs. Classic Modular
-  Fungible: each unit is a self-sufficient (albeit possibly specialized) computer
-  Classic Modular: each unit is only a part of a computer
-
-Daul system: main module system is fungible, secondary/per-module system is classicly modular
-  (hmm, I'll follow this method for awhile)
-
-FPGA Chipbridge for Dev
-Modular Chipbridge for Normal
-Static Chipbridge for Embedded/Small/Cheapo
-
-Jargon:
-Chipbridge - any chip that provides the interfaces for two or more components within a module (think Northbridge/Southbridge)
-Module Interface - The chip(s) and physical port that provide the interface for two or more modules
