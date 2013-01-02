@@ -1,0 +1,19 @@
+List your ideas here
+
+3 Variable Interface:
+  Scalable Parallel Size:
+    Twice the wires=One full PARALLEL SIZE (PS) bigger:
+    PS0=1 Wire, PS1=2w, PS1.5=3w, PS2=4w, PS2.25=5w, etc.
+  Scalable Serial Size:
+    Twice the speed (in Hz)=One full SERIAL SIZE (SS) Bigger:
+    SS0=Fundamental Frequency (TBD), SS1=2x, SS1.5=3x, SS2=4w, SS2.25=5w, etc.
+  Scalable Number-Prefix Size:
+    Half the wire Interval (with a base2-base10 adjustment)=Half the NUMBER-PREFIX SIZE (NPS);
+    1/1000 the wire interval=1/10 the NPS=One full NPS smaller:
+    NPS4mini~16mm, NPS3mini~8mm NPS2mini~4mm, NPS1mini~2mm, NPS0mini=NPS10micro=1mm, NPS9micro=0.5mm~512µm
+
+Fungible vs. Classic Modular
+  Fungible: each unit is a self-sufficient (albeit possibly specialized) computer
+  Classic Modular: each unit is only a part of a computer
+
+Daul system: main module system is fungible, secondary/per-module system is classicly modular
