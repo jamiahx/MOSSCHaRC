@@ -1,4 +1,6 @@
-MOSCHaRC
+MOSSCHaRC
 ========
 
-Modular, Open-Source, Classicly Hackable, and Reconfigurable Computer
+Modular, Open-Source, Scalable, Classicly Hackable, and Reconfigurable Computer
+
+Main Goal: To create a universal system for putting together a computer.
