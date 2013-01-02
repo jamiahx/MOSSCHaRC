@@ -12,8 +12,30 @@ List your ideas here
     1/1000 the wire interval=1/10 the NPS=One full NPS smaller:
     NPS4mini~16mm, NPS3mini~8mm NPS2mini~4mm, NPS1mini~2mm, NPS0mini=NPS10micro=1mm, NPS9micro=0.5mm~512µm
 
+Main parts of a conventional computer (for reference):
+  CPU
+    Cores
+      Executive section
+      A few ALUs
+      L2 Memory
+    L3 Memory
+  GPU
+    ???
+    Lots of ALUs
+    GDDRx
+  Memory
+  Storage
+    Microcontrollers
+    Actual Storage
+  Motherboard
+    I/O
+    Chipsets
+    Integrated Power Supply
+  Seperate Power Supply
+
 Fungible vs. Classic Modular
   Fungible: each unit is a self-sufficient (albeit possibly specialized) computer
   Classic Modular: each unit is only a part of a computer
 
 Daul system: main module system is fungible, secondary/per-module system is classicly modular
+  (hmm, I'll follow this method for awhile)
