@@ -1,4 +1,11 @@
 Type1 - Pure Executive
 
-Single CPU core surrounded by interfaces
+CPU core surrounded by interfaces:
+Parts of CPU Core are modular
+threads
+ALU
+Crypto-coprocessor
+L1 Memory
+L2 Memory
+Optional L4 Memory (as in RAM)
 Put together several of them to get a multi-core CPU
