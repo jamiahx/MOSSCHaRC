@@ -16,13 +16,22 @@ Daul Modularity System: main module system uses fungible modules, secondary/per-
 
 Full module can range from a complete computer (SoC or Full Motherboard) to a fungible part of a computer (CPU, GPU, memory, storage, Comms chip)
 
-Dynamic Module has submodules (ALU, Executive/Control Core, L1/L2/L3 Memory, Threading cores, pipelines, FPU, Crypo-Core) connected by chipbridges
+For now, MOSSCHaRC will leave submodule arrangement up to the module Manufacturer
 
-FPGA Chipbridge for Dev
-Modular Chipbridge for Normal
-Static Chipbridge and Module for Embedded/Small/Cheapo
+
+
+A module has two non-volatile configuration caches for each wire, one for the transmitting configuration and one for the recieving configuration. When configured properly, the TX 
+
+Module Interface Initialization Session:
+	Transmit the configuration for each wire at a standard Frequency at the respective wire
+	IF the Hash recieved 
+
+If Module Hotplugging is enabled in the Kernel
 
 Jargon/Made-Up-Words:
+WP-WP Connection - A connection across two WPs; can be any form of connection: electrical, quantum, bioanolog, optical, etc.
+WP-Bus Connection - A connection across a WP and a Physical Bus and thus, indirectly, across one or more other WPs
+WirePort (WP) - Half of a WireConnection; A contact and the hardware that is able to transmit and information
 Chipbridge - any chip or wires that provide the interfaces for two or more components within a module (think Northbridge/Southbridge)
 Module Interface - The chip(s) and physical port that provide the interface for two or more modules
 Fungible: each unit is a self-sufficient (albeit possibly specialized) computer
