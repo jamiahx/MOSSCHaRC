@@ -1,0 +1,6 @@
+# stuff to do (obviuosly)
+
+# for organization
+mkdir Interface
+mkdir Interface/Protocol
+touch Interface/Protocol/Initialization
