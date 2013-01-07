@@ -1,0 +1,28 @@
+# Protocol for Module Interface Initialization Session
+When powered off, the Wires default to ground
+Each Wire is assumed to be connected to multiple modules through a bus and to different modules than the other Wires until configured differently
+Any wires that transmitted power (that wasn't noise or static electricity) to Module A at any time while Module A was powering up are considered Wires that Module A powered up from
+Module A will recieve (square-wave?) AC current from already powered up modules or power source modules turned on, charge an onboard capacitor or something, and then start up the Interfaces
+Once Module A is powered up
+	On the Wires that Module A powered up from, send "Oh, Hai" signal
+		If/when a reply "Oh, Hai" signal is recieved, then register that there is at least one (more) module on the other side of the wire; Until then, assume each Wire is connected to a dumb power source (like a wall outlet)
+	On the Wires that Module A didn't power up from
+		Pass on the AC Current recieved at the mean timing offset
+		If nothing is detected at one of the wires after foo seconds, turn off
+
+Check if setup is unchanged. If unchanged and there are no reset orders, reuse old configuration and end initialization.
+
+Count number of modules connected to each wire
+
+Register capabilities of each interface of each module at each wire
+
+Associate Wires that are connected to the same module
+
+Register capabilities of each module at each wire
+
+Dedicate wires and virtual buses (sections of bandwidth of wires) to certain tasks/data/power/whatever
+(this part will be able to dynamically change, if needed)
+
+(account for simultaneous power-up)
+	Transmit the configuration for each wire at Standard Frequency at the respective wire
+	IF the Hash recieved 
