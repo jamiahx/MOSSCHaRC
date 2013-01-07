@@ -20,7 +20,8 @@ For now, MOSSCHaRC will leave submodule arrangement up to the module Manufacture
 
 MOSSCHaRC will use/be able to use a "Smart Grid" system: Multiple and localized power sources, Dynamic routing, etc.
 
-A module has two non-volatile configuration caches for each wire, one for the transmitting configuration and one for the recieving configuration. When configured properly, the TX 
+A module has two non-volatile configuration caches for each wire, one for the transmitting configuration and one for the recieving configuration. When configured properly, the TX Config Cache of Module A will match the RX Config Cache of Module B and vice-versa. 
+#Figure out how to use with a bus
 
 Module Interface Initialization Session:
 	When powered off, the Wires default to ground
@@ -39,7 +40,7 @@ Module Interface Initialization Session:
 	Transmit the configuration for each wire at Standard Frequency at the respective wire
 	IF the Hash recieved 
 
-If Module Hotplugging is enabled in the Kernel
+If Module Hotplugging is enabled in the Kernel...
 
 Jargon/Made-Up-Words:
 WP-WP Connection - A connection across two WPs; can be any form of connection: electrical, quantum, bioanolog, optical, etc.
