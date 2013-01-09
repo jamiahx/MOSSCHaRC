@@ -1,0 +1,7 @@
+Virtual Bus
+
+Node to Node 
+	Path Switching System (as in early phone) but each section of bandwidth able to have a different path.
+
+Module to Bus
+	Everything on the bus recieves the message
