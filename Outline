@@ -18,6 +18,8 @@ Full module can range from a complete computer (SoC or Full Motherboard) to a fu
 
 For now, MOSSCHaRC will leave submodule arrangement up to the module Manufacturer
 
+For now, MOSSCHaRC will not use dynamic interfaces, they will be programed manually by ICSP or something
+
 MOSSCHaRC will use/be able to use a "Smart Grid" system: Multiple and localized power sources, Dynamic routing, etc.
 
 A module has two non-volatile configuration caches for each wire, one for the transmitting configuration and one for the recieving configuration. When configured properly, the TX Config Cache of Module A will match the RX Config Cache of Module B and vice-versa. 
