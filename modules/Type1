@@ -21,14 +21,31 @@ Open Hardware License along with MOSSCHaRC.  If not, see
 
 
 
-Type1 - Pure Executive
-
-CPU core surrounded by interfaces:
-Parts of CPU Core are modular
-threads
-ALU
-Crypto-coprocessor
-L1 Memory
-L2 Memory
-Optional L4 Memory (as in RAM)
-Put together several of them to get a multi-core CPU
+-                  ________________
+                   |              |
+                   |     Wires    |
+                   |              |
+                   ----------------
+                    |    |   |   |
+                    |    |   |   |
+              --------------------------    ____________
+__________    |                        |----|          |
+|        |----|                        |----|  Chip,   |
+|        |____|                        |----| Any Chip |
+| Wires  |____|                        |----|          |
+|        |    |         Routing        |----|          |
+|        |----|         Chip(s)        |    ------------
+----------    |                        |    ____________    ________
+__________    |                        |----|          |----|      |
+|        |----|                        |----|  Memory  |----|Flash |
+|        |----|                        |----|Controller|----|Memory|
+| Wires  |----|                        |----|          |----|      |
+|        |----|                        |----|          |    --------
+|        |    __________________________    ------------
+----------          |    |   |   |              | |
+                    |    |   |   |          -----------    _________
+                   ----------------         | Counter |----| Clock |
+                   |              |         -----------    ---------
+                   |     Moar     |
+                   |     Wires    |
+                   ________________
