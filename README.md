@@ -9,16 +9,22 @@ If you're a hardware hacker or a DIYer, you've probably noticed it. Arduino, Bea
 Building such a computer needs to be easy to build and modify at a very basic level, like Arduino, highly scalable and compatible, like no other. That's why this project exists: To create a connections framework for creating any kind of computer: Nainite Fleet, Claytronics, UltraBook, DVR, NAS, Cell Phone, Gaming Computer, Mining Rig, Server, Supercomputer, you-name-it.
 
 Modular - able to use an array of Intel 8080 CPU modules with a Nvidia Tesla GPGPU module; also come in fungible modules
-Open Source - GPL 3.0 for now
+
+Open Source - GPLv3 and TAPR OHL 
+
 Scalable - as big or as small as current manufacturing will allow
+
 Classicly Hackable - able to (manually) hijack and modify the framework for what ever purpose
+
 Reconfigurable - Able to physically rearrange the modules into any form, even while they're running
+
 Computer - As in Nerds
 
 
 
 
 Copyright Jeremiah Gaertner 2013
+jamiahx@gmail.com
 
 This file is part of MOSSCHaRC.
 
