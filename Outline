@@ -34,6 +34,19 @@ Pre-Alpha
 		1/1000 the wire interval=1/10 the NPS=One full NPS smaller:
 		NPS4mini~16mm, NPS3mini~8mm NPS2mini~4mm, NPS1mini~2mm, NPS0mini=NPS10micro=1mm, NPS9micro=0.5mm~512µm
 
+Requirements for MOSSCHaRC: (Assuming an electrical system)
+Each Wire must be able to electrically connect to any amount of any of the other Wires on the same module
+&&
+Each Wire must be able to connect to nothing else/be electrically open
+#&&
+#Each Wire must be able provide Signal, AC Power, a Voltage that is not Ground, a Current, or Ground to the MOSSCHaRC #parts of a module, if those parts aren't integrated into the Central Chip and accept from the Wires
+&&
+Each Wire must be able to electrically connect to any amount of any of the Pins of the Central chip, whatever it may be
+&&
+Each Pin of the Central chip must be able to electrically connect to any amount of any of the other Pins of the Central Chip
+
+	
+
 Daul Modularity System: main module system uses fungible modules, secondary/per-module system uses classicly modular parts
 
 Full module can range from a complete computer (SoC or Full Motherboard) to a fungible part of a computer (CPU, GPU, memory, storage, Comms chip)
