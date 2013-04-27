@@ -28,7 +28,12 @@ jamiahx@gmail.com
 
 This file is part of MOSSCHaRC.
 
-This project, and thus this file, are released under the terms of the GPLv3 and TAPR OHL as appropriate.
+This project, and thus this file, are released under the terms of the GNU GPLv3 and TAPR OHL as follows:
+	The GPL is intended to be the primary or lead license.
+	As the GPL is written primarily as a copyright license, it is possible that patent provisions are not entirely or well declared by the GNU GPL.
+	The OHL is intended to cover the project where the GPL might not or cannot due to any possible lack of legitimacy or applicability of the GPL under patent law.
+	Where the GPL and the OHL conflict, the GPL is intended to override the OHL, except where such an override might weaken either license, in which case an ad hoc exception should be requested.
+	If there are any points where the licensing is unclear, contact the licensor.
 
 MOSSCHaRC is free software and hardware: you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3 as published by
